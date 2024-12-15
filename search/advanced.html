@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>AdvancedSearch</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body style="background-color: lightblue;">
+        <div class="flex-container">
+       <div class="topnav">
+        <div class="topnav-right">
+       <a href="imageSearch.html" class="button1">ImageSearch</a>
+        <a href="index.html" class="button3">Search</a>
+        </div>
+       </div>
+        </div>
+        <div class="container">
+        <img src="images/google.png" class="image"> <br>
+         <form action="https://google.com/search" name="f">
+            <div class="advancedcontainer">
+            <table>
+                <tr>
+                    <th style="text-align:left; font-family: Arial; font-size: 16px;">find</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td class="description">all these words</td>
+                <td>
+                    <input type="text" autocomplete="off"  class="field" value="" name="as_q">
+                </td>
+                </tr>
+                <tr>
+                    <td class="description">the exact word or phase</td>
+                <td>
+                    <input type="text" autocomplete="off" class="field" value="" name="as_epq">
+                </td>
+                </tr>
+                <tr>
+                    <td class="description">any of these words</td>
+                <td>
+                    <input type="text" autocomplete="off" class="field" value="" name="as_oq">
+                </td>
+                </tr>
+                <tr>
+                    <td class="description">none of these words</td>
+                <td>
+                    <input type="text" autocomplete="off" class="field" value="" name="as_eq">
+                </td>
+                </tr>
+            </table>
+                <div class="button-container">
+                <input type="submit" class="advancedbtn" value="Advanced Search">
+                </div>
+         </form>
+            </div>
+    </body>
+</html>
